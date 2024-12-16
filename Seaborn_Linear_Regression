@@ -1,0 +1,2 @@
+import seaborn as sns
+sns.regplot(x=””, y=””, data=df) 
