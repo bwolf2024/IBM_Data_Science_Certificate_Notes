@@ -1,0 +1,23 @@
+# SQL code written in SQL magic
+# SQL DML (data manipulation language) functions: SELECT, INSERT, UPDATE, DELETE
+
+#Put the following code block in a single cell in a Jupiter Notebook
+
+%%sql
+SELECT column1_name.t1, column2_name.t2 COUNT(*)
+FROM table1 t1, table2 t2
+WHERE (=, in, LIKE “%text%”)  #WHERE - LIMIT are optional
+GROUP BY 
+HAVING 
+ORDER BY 
+DESC #ascending is default
+LIMIT 
+
+%%sql
+INSERT
+
+%%sql
+UPDATE
+
+%%sql
+DELETE
